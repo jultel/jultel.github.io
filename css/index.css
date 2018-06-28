@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+:root{
+    font-family: 'Slabo', sans-serif;
+}
 body {
     margin: auto;
     width: 100%;
@@ -15,21 +19,53 @@ ul {
 }
 
 header {
+
     padding: 20px 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+div.logo {
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    display:block;
+    width :50px;
+    height:50px;
+    background-image: url("../img/my-logo.jpg");
 
+
+}
 nav ul {
     display: flex;
 }
 
 nav ul li {
-    margin-right: 30px;
+    margin-right: 60px;
 }
 
 nav ul li:last-child {
     margin-right: 0;
 }
 
+div.banner {
+    background-image:url("../img/jultel.jpeg");
+    background-size: contain ;
+    display:flex;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    height:400px;
+    
+}
+div.containerContent{
+    width:90%; 
+    margin:auto;
+}
+.center{
+margin:auto;
+width:95% ;
+align-content: center;
+}
+.raw{
+    display:block;
+}
