@@ -1,73 +1,44 @@
 @import url('https://fonts.googleapis.com/css?family=Slabo+27px');
 :root{
-    font-family: 'Slabo', sans-serif;
+    font-family: 'Slabo', sans-serif !important;
 }
-body {
-    margin: auto;
-    width: 100%;
-    padding: 0;
+body, .allInTheMiddle{
+	width: 90%;
+	margin:auto;
+	align-content: center;
+	
 }
-
-a {
-    color: #000;
-    text-decoration: none;
-}
-#myjul{
-    padding:0;
-    list-style: none;
-}
-header {
-
-    padding: 20px 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-div.logo {
-    background-size: 40px 40px;
-    background-repeat: no-repeat;
-    display:block;
-    width :50px;
-    height:50px;
-    background-image: url("../img/my-logo.jpg");
-
-
-}
-nav ul {
-    display: flex;
+formmiddle{
+	width: 50%;
+	margin:auto;
+	align-content: center;
+	
 }
 
-nav ul li {
-    margin-right: 60px;
+
+.logo {
+    background-size: 40px 40px!important;
+    background-repeat: no-repeat!important;
+    width :50px!important;
+	height:50px!important;
+	background-image: url("../img/my-logo.jpg");
+	background-size: contain;
 }
-div.banner {
+
+.banner {
     background-image:url("../img/jultel.jpeg");
     background-size: cover;
-    display:block;
     background-repeat: no-repeat;
     background-position: center top;
     background-attachment: fixed;
-    height:400px;
-    width: 90%;
-    justify-content: center;
-    align-items: center;
-    
+    height:400px;  
 }
-div.containerContent{
-    width:90%; 
-    margin:auto;
+.morePadding{
+	padding: 10px;
 }
-.center{
-margin:auto;
-width:95% ;
-align-content: center;
-}
-.white{
-color: white;
-}
-.raw{
-    display:block;
-}
+
+
+
 /* Wrapper */
 .icon-button {
 	background-color: white;
