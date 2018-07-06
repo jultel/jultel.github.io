@@ -1,10 +1,52 @@
+function plus() {
+  var num1, num2, result;
 
-function fibonacci (nnnn) {
-    // body...
-    if(nnnn== 0 || nnnn==1)
-    {return 1;
-    }
-    return fibonacci(nnnn-2)+fibonacci(nnnn-1);
+  num1 = document.getElementById("n1").value;
+  num1 = parseInt(num1);
+
+  num2 = document.getElementById("n2").value;
+  num2 = parseInt(num2);
+
+  result = num1 + num2;
+
+  document.getElementById("out").innerHTML = result;
 }
-var nneChislo = prompt("Please enter nne Chislo ", "10");
-document.getElementById("Fib1").innerHTML = fibonacci(nneChislo)
+
+function minus() {
+var nam1,nam2,result;
+
+  num1 = document.getElementById('n1').value;
+  num1 = parseInt(num1);
+
+  num2 = document.getElementById('n2').value;
+  num2 = parseInt(num2);
+
+  result = num1 - num2;
+  document.getElementById("out").innerHTML = result;
+}
+
+function multiply(){
+    var nam1,nam2,result;
+
+    num1 = document.getElementById('n1').value;
+    num1 = parseInt(num1);
+  
+    num2 = document.getElementById('n2').value;
+    num2 = parseInt(num2);
+
+    result = num1 * num2;
+    document.getElementById("out").innerHTML = result;
+}
+ 
+function division(){
+    var nam1,nam2,result;
+
+    num1 = document.getElementById('n1').value;
+    num1 = parseInt(num1);
+  
+    num2 = document.getElementById('n2').value;
+    num2 = parseInt(num2);
+
+    result = num1 / num2;
+    document.getElementById("out").innerHTML = result;
+}
