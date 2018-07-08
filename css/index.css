@@ -97,13 +97,13 @@ p.about_me{
 	border-radius: 3.6rem;
 	margin: -1.8rem;
 }
-.twitter span {
+.facebook span {
 	background-color: #4099ff;
 }
-.facebook span {
+.instagram span {
 	background-color: #3B5998;
 }
-.google-plus span {
+.google span {
 	background-color: #db5a3c;
 }
 
@@ -123,17 +123,27 @@ p.about_me{
 	width: 3.6rem;
 	z-index: 10;
 }
-.icon-button .icon-twitter {
+.icon-button .icon-facebook {
+	background-image: url("../img/icons8-значки-facebook-в-форме-круга-100.png");
+	background-repeat: no-repeat;
+	background-size:cover;
 	color: #4099ff;
 }
-.icon-button .icon-facebook {
+.icon-button .icon-instagram {
+	background-image: url("../img/icons8-instagram-100.png");
+	background-repeat: no-repeat;
+	background-size:cover;
+	
 	color: #3B5998;
 }
-.icon-button .icon-google-plus {
+.icon-button .icon-google {
+	background-image: url("../img/mail.google.png");
+	background-repeat: no-repeat;
+	background-size:cover;
 	color: #db5a3c;
 }
-.icon-button:hover .icon-twitter,
 .icon-button:hover .icon-facebook,
-.icon-button:hover .icon-google-plus {
+.icon-button:hover .icon-instagram,
+.icon-button:hover .icon-google {
 	color: white;
 }
