@@ -31,13 +31,31 @@ formmiddle{
     background-repeat: no-repeat;
     background-position: center top;
     background-attachment: fixed;
-    height:400px;  
-}
-.morePadding{
-	padding: 10px;
+	height:400px; 
+	display: flex;
 }
 
+.bannertext {
+	color: black;
+	text-align: center;
+	margin: 170px auto;
+	margin-left: 200px;
+	border: 2px solid;
+	border-color: aliceblue;
+	border-radius: 5px;
+	background-color: aliceblue;
+	padding: 0 5px;
+	box-shadow: 10px 5px 5px black;
+	overflow: hidden;
+	font-family: 'Sacramento', cursive;
+}
 
+p.about_me{
+	text-align: justify;
+}
+.I_really_good_att{
+	text-align: justify;
+}
 
 /* Wrapper */
 .icon-button {
