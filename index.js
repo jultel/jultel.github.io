@@ -6,7 +6,8 @@ const app = express(); // get the express object
 app.get('/', (req,res) =>{
    console.log( res.sendDate);// tells us, that it is outgoing!
 //    res.sendStatus(500);
-res.send("Hello World");
+// res.send("Hello World");
+res.sendFile(__dirname + "/index.html");
 });
 
 
