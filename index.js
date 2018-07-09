@@ -4,14 +4,17 @@ const path = require('path');
 const app = express(); // get the express object
 
 app.get('/', (req,res) =>{
-   console.log( res.sendDate);// tells us, that it is outgoing!
+//   console.log( res.sendDate);// tells us, that it is outgoing!
 //    res.sendStatus(500);
 // res.send("Hello World");
 res.sendFile(__dirname + "/index.html");
 });
+app.post('/form', (req, res) => {
+    console.log(req.body);
+    res.send(req.body);
+});
 
 
+console.log('Started on ', process.env.PORT || 3000 , process.env.IP || '0.0.0.0');
 
-console.log('Started on ', process.env.PORT || 3000 , process.env.IP || '127.0.0.1');
-
-app.listen(process.env.PORT || 3000, process.env.IP || '127.0.0.1');
+app.listen(process.env.PORT || 3000, process.env.IP || '0.0.0.0');
