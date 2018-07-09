@@ -19,7 +19,8 @@ function sendForm(e){
     e.preventDefault();
     fetch('https://jultelwebsite-telishchuk.c9users.io/form', {
     headers: {
-            'Content-type': 'application/json'
+            'Content-type': 'application/json',
+            'Accept': 'application/json'
         },
         method: 'POST',
         body: JSON.stringify({
