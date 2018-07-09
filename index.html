@@ -129,21 +129,21 @@
                                     <h6 id="e-mail"> My e-maill:Telishchuk25265@gmail.com </h6>
                                     
                                 </div>
-                                <form class="w3-container" action="mailto:telishchuk25265@gmail.com" method="post" enctype="text/plain">
+                                <form class="w3-container" >
                                     <p>
-                                        <input class="w3-input" style="width:90%" required="" type="text">
+                                        <input id="nameText" class="w3-input" style="width:90%" required="" type="text">
                                         <label>Your name:</label>
                                     </p>
                                     <p class>
-                                        <input class="w3-input" style="width:90%" required="" type="email">
+                                        <input id="e-mailText" class="w3-input" style="width:90%" required="" type="email">
                                         <label>Your e-mail</label>
                                     </p>
                                     <p class>
-                                        <textarea class="w3-input" style="width:90%;resize: vertical;" cols="20" name="S3" rows="1"></textarea>
+                                        <textarea id="textText" class="w3-input" style="width:90%;resize: vertical;" cols="20" name="S3" rows="1"></textarea>
                                         <label>Text:</label>
                                     </p>
                                     <br>
-                                    <input type="submit" value="Send">
+                                    <button  id="SendBtn"  style="height: 60px; width: 60px4;">
                                 </form>
                             </div>
                         </div>
@@ -171,9 +171,13 @@
 
         </div>
 
-
-    </div>
-
+ <h1 id="joke" ></h1>
+ <button style="height:50px; width:80px;" id="jokeBtn" > Click me</button>
+   
+</div>
+<script src="./js/helper.js">
+    
+</script>
 </body>
 
 </html>
