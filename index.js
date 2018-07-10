@@ -3,12 +3,10 @@ const path = require('path');
 
 const app = express(); // get the express object
 
-app.get('/', (req,res) =>{
-//   console.log( res.sendDate);// tells us, that it is outgoing!
-//    res.sendStatus(500);
-// res.send("Hello World");
-res.sendFile(__dirname + "/index.html");
+app.get('/', function(req, res) {
+    res.sendFile(path.join(__dirname + '/index.html'));
 });
+app.use( express.static(__dirname) ) ;
 app.post('/form', (req, res) => {
     console.log(req.body);
     res.send(req.body);
