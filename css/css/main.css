@@ -99,7 +99,7 @@ section,
   border: none;
   border-radius: 4px 4px 4px 4px;
   transition: transform 0.5s, top 0.2s;
-  /* transition-delay: 0.2s, 0s; */ }
+   }
 
 .sw-bottom {
   position: relative;
@@ -398,4 +398,4 @@ form button {
     line-height: 40px;
     text-indent: 12px; }
 
-/*# sourceMappingURL=main.css.map */
+
