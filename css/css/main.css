@@ -98,7 +98,7 @@ section,
   height: 3px;
   background: #fff;
   border: none;
-  border-radius: 4px 4px 4px 4px;
+  border-radius: 4px;
   transition: transform 0.5s, top 0.2s;
   /* transition-delay: 0.2s, 0s; */ }
 
