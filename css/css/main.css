@@ -5,6 +5,7 @@ body {
   min-width: 320px;
   position: relative;
   line-height: 1.42857;
+  overflow-x: hidden;
   -webkit-font-smoothing: antialised; }
 
 body input:focus:required:invalid,
@@ -73,9 +74,9 @@ section,
   position: relative;
   z-index: 100;
   border: none;
-  top: 20px;
+  top: 0px;
   right: 20px;
-  position: fixed; }
+  position: absolute; }
   .toggle_mnu span {
     display: block; }
 
@@ -99,7 +100,7 @@ section,
   border: none;
   border-radius: 4px 4px 4px 4px;
   transition: transform 0.5s, top 0.2s;
-   }
+  /* transition-delay: 0.2s, 0s; */ }
 
 .sw-bottom {
   position: relative;
@@ -305,6 +306,10 @@ section .personal_header {
     cursor: pointer;
     line-height: 2; }
 
+#portfolio_grid {
+  overflow: hidden;
+}
+
 .portfolio_item {
   display: none;
   padding: 0; }
@@ -398,4 +403,4 @@ form button {
     line-height: 40px;
     text-indent: 12px; }
 
-
+/*# sourceMappingURL=main.css.map */
