@@ -1,6 +1,4 @@
-/*==========  Desktop First Method  ==========*/
 
-/* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 
 	.portfolio_item-img {
@@ -10,7 +8,7 @@
 
 }
 
-/* Medium Devices, Desktops */
+
 @media only screen and (max-width : 992px) {
 	.personal_last_block {
 		margin-top: 35px;
@@ -32,7 +30,7 @@
 	}
 }
 
-/* Small Devices, Tablets */
+
 @media only screen and (max-width : 768px) {
 	.resume_container .left,
 	.section_content .resume_container h3,
@@ -89,7 +87,7 @@
 	}
 }
 
-/* Extra Small Devices, Phones */
+
 @media only screen and (max-width : 480px) {
 	.top_wrapper .top_text h1 {
 		font-size: 2em;
