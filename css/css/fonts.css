@@ -1,4 +1,3 @@
-
 @font-face {
 	font-family: "RobotoRegular";
 	src: url("../fonts/RobotoRegular/RobotoRegular.eot");
@@ -8,7 +7,6 @@
 	font-style: normal;
 	font-weight: normal;
 }
-
 @font-face {
 	font-family: "RobotoLight";
 	src: url("../fonts/RobotoLight/RobotoLight.eot");
@@ -18,7 +16,6 @@
 	font-style: normal;
 	font-weight: normal;
 }
-
 @font-face {
 	font-family: "RobotoMedium";
 	src: url("../fonts/RobotoMedium/RobotoMedium.eot");
@@ -28,7 +25,6 @@
 	font-style: normal;
 	font-weight: normal;
 }
-
 @font-face {
 	font-family: "RobotoBold";
 	src: url("../fonts/RobotoBold/RobotoBold.eot");
@@ -38,7 +34,6 @@
 	font-style: normal;
 	font-weight: normal;
 }
-
 @font-face {
 	font-family: "NautilusPompiliusRegular";
 	src: url("../fonts/NautilusPompiliusRegular/NautilusPompiliusRegular.eot");
@@ -48,7 +43,6 @@
 	font-style: normal;
 	font-weight: normal;
 }
-/* font-family: "RobotoCondensedRegular"; */
 @font-face {
 	font-family: "RobotoCondensedRegular";
 	src: url("../fonts/RobotoCondensedRegular/RobotoCondensedRegular.eot");
@@ -58,7 +52,6 @@
 	font-style: normal;
 	font-weight: normal;
 }
-
 @font-face {
 	font-family: "RobotoCondensedLight";
 	src: url("../fonts/RobotoCondensedLight/RobotoCondensedLight.eot");
@@ -68,7 +61,6 @@
 	font-style: normal;
 	font-weight: normal;
 }
-
 @font-face {
 	font-family: "RobotoCondensedBold";
 	src: url("../fonts/RobotoCondensedBold/RobotoCondensedBold.eot");
@@ -78,8 +70,6 @@
 	font-style: normal;
 	font-weight: normal;
 }
-
-
 @font-face {
     font-family: "YanoneKaffeesatzRegular";
     src: url("../fonts/YanoneKaffeesatzRegular/YanoneKaffeesatzRegular.eot");

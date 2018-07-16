@@ -1,9 +1,10 @@
 $(document).ready(function() {
 
 $(".portfolio_item").each(function(i){
-$(this).find("a").attr("href","#work_" + i);
-$(this).find(".podrt_descr").attr("id", "work_" + i);
-$("#portfolio_grid").mixItUp();
+	 $(this).find("a").attr("href","#work_" + i);
+	 $(this).find(".podrt_descr").attr("id", "work_" + i);
+});
+	$("#portfolio_grid").mixItUp();
 $("input,select,textarea").jqBootstrapValidation();
 $(".top_mnu ul a").mPageScroll2id();
 $(".popup").magnificPopup({type:"image"});
@@ -24,7 +25,6 @@ heightDetect();
 $(window).resize(function(){
 	heightDetect();
 });
-
 
 $(".toggle_mnu, .menu_item").click(function() {
   $(".sandwich").toggleClass("active");
